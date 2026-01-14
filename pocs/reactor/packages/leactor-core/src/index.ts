@@ -5,14 +5,14 @@ export interface LeactorEvent {
   type: EventType;
 }
 
-export interface EventHandler {
+export interface LeactorEventHandler {
   handle(event: LeactorEvent): Promise<void> | void;
 }
 
 export class Leactor {
-  private handlers = new Map<EventType, EventHandler>();
+  private handlers = new Map<EventType, LeactorEventHandler>();
 
-  register(type: EventType, handler: EventHandler) {
+  register(type: EventType, handler: LeactorEventHandler) {
     this.handlers.set(type, handler);
   }
 
