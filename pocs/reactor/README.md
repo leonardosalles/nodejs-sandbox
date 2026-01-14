@@ -34,3 +34,7 @@ I followed the formal Reactor Pattern structure, but kept the code clean:
 - How Node.js uses it to handle his Event Loop
 
 ## Leactor in Action
+
+<video src="./leactor-in-action.mov" width="100%" controls autoplay muted loop>
+  Your browser does not support the video tag.
+</video>
