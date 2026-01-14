@@ -35,6 +35,6 @@ I followed the formal Reactor Pattern structure, but kept the code clean:
 
 ## Leactor in Action
 
-<video src="https://github.com/leonardosalles/nodejs-sandbox/raw/refs/heads/main/pocs/reactor/leactor-in-action.mov" width="100%" controls autoplay muted loop>
+<video src="https://github.com/leonardosalles/nodejs-sandbox/raw/refs/heads/main/pocs/reactor/leactor-in-action.mp4" width="100%" controls autoplay muted loop>
   Your browser does not support the video tag.
 </video>
